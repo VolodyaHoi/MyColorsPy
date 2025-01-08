@@ -4,18 +4,19 @@
 
 ## About:
 
-MyColorsPy - python`s module for using color in win command line or terminal
+MyColorsPy - python`s module for using color in win command line or terminal.
 
 ### Functional:
 
 - Add color for text;
 - Add style for text (works differently in different systems);
-- Add user`s custom color for text (RGB format)
+- Add user`s custom color for text (RGB format).
 
 ## Screenshots:
 
 <img src="https://sun9-31.userapi.com/impg/tDyTXun_rzpDzIUwKNBXhH6Ya7xKf7tPAoSV1Q/gynp_Frjf-Y.jpg?size=975x114&quality=95&sign=32cd19b9d59acb26fd5b190a7f03e19d&type=album"/>
-> example.py output
+
+> example.py output.
 
 ## How to use:
 ```python
@@ -52,7 +53,7 @@ print(color.S_CLEAR)
 
 #### custom(r, g, b, background)
 
-Return custom rgb color in ascii format
+Return custom rgb color in ascii format.
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -77,6 +78,7 @@ Return custom rgb color in ascii format
 | `F_RED` | `B_RED` | Red |
 
 #### Styles
+
 | Value | Description |
 | :---- | :---------- |
 | `S_CLEAR` | Clear formatting |
@@ -92,7 +94,10 @@ Return custom rgb color in ascii format
 | `S_SURROUND` | Surrounded text |
 | `S_CROSSOUT` | Crossouted text |
 
+> P.S: Depending on the system, styles may or may not work.
+
 ## Install:
+
 ```bash
 pip install mycolorspy
 ```
