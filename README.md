@@ -1,6 +1,6 @@
 # MyColorsPy
 
-<img src="https://img.shields.io/badge/MyColorsPy-0.1.1-violet"/> <img src="https://img.shields.io/badge/python-3.10+-blue"/>
+<img src="https://img.shields.io/badge/MyColorsPy-0.1.3-violet"/> <img src="https://img.shields.io/badge/python-3.10+-blue"/>
 
 ## About:
 
@@ -21,10 +21,10 @@ MyColorsPy - python`s module for using color in win command line or terminal.
 ## How to use:
 ```python
 # import module
-import MyColorsPy
+from MyColorsPy.MyColorsPy import Colors
 
 # init Colors class
-color = MyColorsPy.Colors()
+color = Colors()
 
 # print red text
 print(color.F_RED + "RED TEXT")
@@ -37,10 +37,10 @@ print(color.S_CLEAR)
 
 ```python
 # import module
-import MyColorsPy
+from MyColorsPy.MyColorsPy import Colors
 
 # init Colors class
-color = MyColorsPy.Colors()
+color = Colors()
 
 # print custom color in rgb format (white)
 print(color.custom(255, 255, 255, False) + "Hello world!")
@@ -101,4 +101,3 @@ Return custom rgb color in ascii format.
 ```bash
 pip install MyColorsPy
 ```
-
