@@ -1,6 +1,6 @@
 # MyColorsPy
 
-<img src="https://img.shields.io/badge/MyColorsPy-0.1-violet"/> <img src="https://img.shields.io/badge/python-3.10+-blue"/>
+<img src="https://img.shields.io/badge/MyColorsPy-0.1.1-violet"/> <img src="https://img.shields.io/badge/python-3.10+-blue"/>
 
 ## About:
 
@@ -99,6 +99,6 @@ Return custom rgb color in ascii format.
 ## Install:
 
 ```bash
-pip install mycolorspy
+pip install MyColorsPy
 ```
 
